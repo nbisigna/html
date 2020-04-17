@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Media</title>
+  </head>
+  <body>
+    <audio
+      src="./media/audio/Woke up this morning.mp3"
+      type="audio/mpeg"
+      controls
+      playbackRate
+    ></audio>
+    <video
+      src="./media/video/sandlot.mp4"
+      frameborder="0"
+      controls="true"
+      autoplay="true"
+    ></video>
+  </body>
+  <script>
+    // document.getElementsByTagName('audio')[0].playbackRate = 0.5;
+    document.getElementsByTagName('video')[0].currentTime = 82;
+    document.getElementsByTagName('video')[0].playbackRate = 0.5;
+  </script>
+</html>
